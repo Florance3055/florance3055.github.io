@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
 </head>
 
 <style>
@@ -49,7 +49,7 @@
 </style>
 
 <body id="body" style="margin:0;padding:0;border:none">
-    <div id="block" class="view"/>
+    <div id="block" class="view" />
 </body>
 
 <script src="./jquery.min.js"></script>
@@ -57,35 +57,24 @@
 <script type="text/javascript">
     const data = [
         [
-            {key: 'doc.2key.top', value: 'http://doc.2key.top'},
-            {key: 'f.2key.top', value: 'http://f.2key.top'},
-            {key: 'ff.2key.top', value: 'http://ff.2key.top'},
-            {key: 'nps.2key.top', value: 'http://nps.2key.top'},
-            {key: 'bt6733', value: 'http://47.240.80.23:6733/'},
-            {key: 'staff', value: 'http://doc.2key.top/#/staff/index'},
-            {key: 'pan.2key.top', value: 'http://pan.2key.top/'},
-            {key: 'baidu', value: 'https://www.baidu.com/'},
-            {key: 'google', value: 'https://www.google.com/'},
+            { key: 'doc.2key.top', value: 'http://doc.2key.top' },
+            { key: 'f.2key.top', value: 'http://f.2key.top' },
+            { key: 'ff.2key.top', value: 'http://ff.2key.top' },
+            { key: 'nps.2key.top', value: 'http://nps.2key.top' },
+            { key: 'bt6733', value: 'http://47.240.80.23:6733/' },
+            { key: 'staff', value: 'http://doc.2key.top/#/staff/index' },
+            { key: 'pan.2key.top', value: 'http://pan.2key.top/' },
         ],
         [
-            {key: 'zentao', value: 'https://zentao.apexsoft.com.cn/zentao/project-bug-62.html', color: true},
-            {key: 'log', value: 'http://pms.apexsoft.com.cn/'},
-            {key: 'mail', value: 'https://mail.apexsoft.com.cn/'},
-            {key: 'gitlab', value: 'https://git.apexsoft.com.cn/dashboard/projects/starred'},
-            {key: 'oa', value: 'https://360f.apexsoft.com.cn/'},
-            {key: 'confluence', value: 'http://218.66.59.169:4991/', color: true},
-            {key: 'weekly', value: 'https://docs.qq.com/sheet/DV0VoQmpJWU1TYnBl'},
-            {key: 'hztrust-doc', value: 'https://www.kdocs.cn/l/sf75M6h0Xd3D'},
-            {
-                key: 'hztrust-ui-khapp',
-                value: 'https://lanhuapp.com/web/#/item/project/stage?pid=7cb45711-d9fc-4271-98a5-33de6798586a&type=share_mark&activeSectionId=c60e7cc9-cfcc-4d18-b3f5-0a0d012c32e1&teamId=5bf2f98e-f2ff-45f5-b46d-a59fd80fb947'
-            },
-            {
-                key: 'hztrust-ui-elder',
-                value: 'https://lanhuapp.com/web/#/item/project/stage?pid=160231eb-6d07-4389-98eb-b53830d16322&image_id=cd6e9f74-cd41-4e17-921c-f9f586438db6'
-            },
-            {key: 'hztrust-pld', value: 'https://pld.hztrust.com/index.php/Public/index/stra_name/ad_lotp'},
-            {key: 'hztrust-newsjcrm', value: 'https://docs.qq.com/sheet/DR2dNb3RoWGFaaVJD?tab=BB08J4'},
+            { key: 'zentao', value: 'https://zentao.apexsoft.com.cn/zentao/project-bug-62.html', color: true },
+            { key: 'log', value: 'http://pms.apexsoft.com.cn/' },
+            { key: 'mail', value: 'https://mail.apexsoft.com.cn/' },
+            { key: 'gitlab', value: 'https://git.apexsoft.com.cn/dashboard/projects/starred' },
+            { key: 'oa', value: 'https://360f.apexsoft.com.cn/' },
+            { key: 'confluence', value: 'http://218.66.59.169:4991/', color: true },
+            { key: 'weekly', value: 'https://docs.qq.com/sheet/DV0VoQmpJWU1TYnBl' },
+            { key: 'lanhuapp', value: 'https://lanhuapp.com/' },
+            { key: 'pld', value: 'https://pld.hztrust.com/index.php/Public/index/stra_name/ad_lotp' },
         ],
         [
             {
@@ -93,42 +82,42 @@
                 value: 'https://www.52pojie.cn/forum.php?mod=forumdisplay&fid=16&filter=typeid&typeid=231&orderby=dateline',
                 color: true
             },
-            {key: 'tophub', value: 'https://tophub.today/', color: true},
-            {key: 'douyu', value: 'https://www.douyu.com/directory/myFollow'},
-            {key: 'youtube', value: 'https://www.youtube.com/'},
-            {key: 'bilibili', value: 'https://www.bilibili.com/'},
-            {key: 'aliyun', value: 'https://account.aliyun.com/'},
-            {key: 'ddrk', value: 'https://ddys.art/'},
-            {key: 'yinfans', value: 'https://www.yinfans.me/'},
-            {key: 'libvio', value: 'https://www.libvio.me/'},
-            {key: 'top250', value: 'https://movie.douban.com/top250'},
+            { key: 'tophub', value: 'https://tophub.today/', color: true },
+            { key: 'douyu', value: 'https://www.douyu.com/directory/myFollow' },
+            { key: 'youtube', value: 'https://www.youtube.com/' },
+            { key: 'bilibili', value: 'https://www.bilibili.com/' },
+            { key: 'aliyun', value: 'https://account.aliyun.com/' },
+            { key: 'ddrk', value: 'https://ddys.art/' },
+            { key: 'yinfans', value: 'https://www.yinfans.me/' },
+            { key: 'libvio', value: 'https://www.libvio.me/' },
+            { key: 'top250', value: 'https://movie.douban.com/top250' },
             {
                 key: 'seenmovie',
                 value: 'https://movie.douban.com/people/linfengwang/collect?sort=rating&start=0&filter=all&mode=list&tags_sort=count'
             },
-            {key: 'skylinewebcams', value: 'https://www.skylinewebcams.com/'},
-            {key: 'elsfk', value: 'http://farter.cn/t/'},
-            {key: 'dianyinggou', value: 'https://www.dianyinggou.com/'},
-            {key: 'yyets', value: 'https://yyets.dmesg.app/search/'},
-            {key: 'zhaoziyuan', value: 'https://zhaoziyuan.me/'},
-            {key: 'maoli', value: 'https://www.alipansou.com/'},
-            {key: 'taiko', value: 'https://taiko.bui.pm/'},
+            { key: 'skylinewebcams', value: 'https://www.skylinewebcams.com/' },
+            { key: 'elsfk', value: 'http://farter.cn/t/' },
+            { key: 'dianyinggou', value: 'https://www.dianyinggou.com/' },
+            { key: 'yyets', value: 'https://yyets.dmesg.app/search/' },
+            { key: 'zhaoziyuan', value: 'https://zhaoziyuan.me/' },
+            { key: 'maoli', value: 'https://www.alipansou.com/' },
+            { key: 'taiko', value: 'https://taiko.bui.pm/' },
         ],
         [
-            {key: 'qq-mail', value: 'https://mail.qq.com/'},
-            {key: 'github', value: 'https://www.github.com/', color: true},
-            {key: 'palette', value: 'https://flatuicolors.com/palette/cn'},
-            {key: 'jubt', value: 'https://1jubt.top/'},
-            {key: 'wallpaperswide', value: 'http://wallpaperswide.com/'},
-            {key: 'translate', value: 'https://translate.google.com.hk/?hl=zh-CN', color: true},
-            {key: 'gitmind', value: 'https://gitmind.cn/app/my/'},
-            {key: 'testfiles', value: 'http://speed.hetzner.de/'},
-            {key: 'speechnotes', value: 'https://speechnotes.co/zh/'},
-            {key: 'chaipip', value: 'https://www.chaipip.com/'},
-            {key: 'testufo', value: 'https://testufo.com/framerates#count=4&background=stars&pps=960'},
-            {key: 'cloudmessage', value: 'https://www.storytrain.info/'},
-            {key: 'gifcap', value: 'https://gifcap.dev/'},
-            {key: 'beautifyImg', value: 'http://makeup.pho.to/zh/'},
+            { key: 'qq-mail', value: 'https://mail.qq.com/' },
+            { key: 'github', value: 'https://www.github.com/', color: true },
+            { key: 'palette', value: 'https://flatuicolors.com/palette/cn' },
+            { key: 'jubt', value: 'https://1jubt.top/' },
+            { key: 'wallpaperswide', value: 'http://wallpaperswide.com/' },
+            { key: 'translate', value: 'https://translate.google.com.hk/?hl=zh-CN', color: true },
+            { key: 'gitmind', value: 'https://gitmind.cn/app/my/' },
+            { key: 'testfiles', value: 'http://speed.hetzner.de/' },
+            { key: 'speechnotes', value: 'https://speechnotes.co/zh/' },
+            { key: 'chaipip', value: 'https://www.chaipip.com/' },
+            { key: 'testufo', value: 'https://testufo.com/framerates#count=4&background=stars&pps=960' },
+            { key: 'cloudmessage', value: 'https://www.storytrain.info/' },
+            { key: 'gifcap', value: 'https://gifcap.dev/' },
+            { key: 'beautifyImg', value: 'http://makeup.pho.to/zh/' },
         ],
     ]
     let ele_li, ele_ul
