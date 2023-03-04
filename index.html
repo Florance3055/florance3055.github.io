@@ -52,8 +52,8 @@
     <div id="block" class="view" />
 </body>
 
-<script src="./jquery.min.js"></script>
-<script src="./mouse.min.js"></script>
+<!-- <script src="./jquery.min.js"></script> -->
+<!-- <script src="./mouse.min.js"></script> -->
 <script type="text/javascript">
     const data = [
         [
@@ -61,7 +61,6 @@
             { key: 'f.2key.top', value: 'http://f.2key.top' },
             { key: 'ff.2key.top', value: 'http://ff.2key.top' },
             { key: 'nps.2key.top', value: 'http://nps.2key.top' },
-            { key: 'bt6733', value: 'http://47.240.80.23:6733/' },
             { key: 'staff', value: 'http://doc.2key.top/#/staff/index' },
             { key: 'pan.2key.top', value: 'http://pan.2key.top/' },
         ],
@@ -113,14 +112,15 @@
             { key: 'gitmind', value: 'https://gitmind.cn/app/my/' },
             { key: 'testfiles', value: 'http://speed.hetzner.de/' },
             { key: 'speechnotes', value: 'https://speechnotes.co/zh/' },
-            { key: 'chaipip', value: 'https://www.chaipip.com/' },
             { key: 'testufo', value: 'https://testufo.com/framerates#count=4&background=stars&pps=960' },
             { key: 'cloudmessage', value: 'https://www.storytrain.info/' },
             { key: 'gifcap', value: 'https://gifcap.dev/' },
             { key: 'beautifyImg', value: 'http://makeup.pho.to/zh/' },
         ],
     ]
+
     let ele_li, ele_ul
+
     data.map(column => {
         ele_ul = document.createElement('ul')
         column.map(item => {
@@ -131,7 +131,9 @@
         })
         document.getElementById('block').appendChild(ele_ul)
     })
+
     document.getElementById('body').style.backgroundColor = '#292a2d'
+
     $.shuicheMouse({
         type: 11,
         color: false
